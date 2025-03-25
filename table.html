@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Table Data in HTML</title>
+    <style>
+        body {
+            background-color: #e3f2fd;
+            font-family: 'Arial', sans-serif;
+            text-align: center;
+            padding: 50px;
+            margin: 0;
+        }
+        .container {
+            background: white;
+            padding: 30px;
+            border-radius: 12px;
+            width: 80%;
+            margin: auto;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+            border: 3px solid #0d47a1;
+        }
+        h1 {
+            color: #0d47a1;
+            font-size: 28px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        th, td {
+            padding: 12px;
+            border: 2px solid #1565c0;
+            text-align: center;
+            font-size: 18px;
+        }
+        th {
+            background-color: #1565c0;
+            color: white;
+        }
+        tr:nth-child(even) {
+            background-color: #bbdefb;
+        }
+        tr:hover {
+            background-color: #64b5f6;
+            color: white;
+            transition: 0.3s;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>World Country Data</h1>
+        <table>
+            <tr>
+                <th>Country</th>
+                <th>Population</th>
+                <th>Capital</th>
+                <th>Continent</th>
+                <th>Official Language</th>
+            </tr>
+            <tr>
+                <td>India</td>
+                <td>1.4 Billion</td>
+                <td>New Delhi</td>
+                <td>Asia</td>
+                <td>Hindi, English</td>
+            </tr>
+            <tr>
+                <td>USA</td>
+                <td>331 Million</td>
+                <td>Washington D.C.</td>
+                <td>North America</td>
+                <td>English</td>
+            </tr>
+            <tr>
+                <td>China</td>
+                <td>1.41 Billion</td>
+                <td>Beijing</td>
+                <td>Asia</td>
+                <td>Mandarin</td>
+            </tr>
+            <tr>
+                <td>France</td>
+                <td>67 Million</td>
+                <td>Paris</td>
+                <td>Europe</td>
+                <td>French</td>
+            </tr>
+            <tr>
+                <td>Brazil</td>
+                <td>213 Million</td>
+                <td>Brasilia</td>
+                <td>South America</td>
+                <td>Portuguese</td>
+            </tr>
+            <tr>
+                <td>Japan</td>
+                <td>126 Million</td>
+                <td>Tokyo</td>
+                <td>Asia</td>
+                <td>Japanese</td>
+            </tr>
+            <tr>
+                <td>Australia</td>
+                <td>26 Million</td>
+                <td>Canberra</td>
+                <td>Australia</td>
+                <td>English</td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
